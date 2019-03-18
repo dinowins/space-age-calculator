@@ -27,4 +27,8 @@ describe('User', function() {
   it("Should calculate the Earth life expectancy for the input", function() {
     expect(user.lifeExpEarth()).toEqual(56);
   });
+
+  it("Should calculate the Mercury life expectancy for the input", function() {
+    expect(user.lifeExpMecury()).toEqual(233);
+  });
 });
