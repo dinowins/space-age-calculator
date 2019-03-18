@@ -24,4 +24,8 @@ export class User {
   marsAge() {
     return Math.floor(this.ageInSecs() / 31536000000 / 1.88);
   }
+
+  jupiterAge() {
+    return Math.floor(this.ageInSecs() / 31536000000 / 11.86);
+  }
 }
