@@ -33,4 +33,8 @@ export class User {
   lifeExpEarth() {
     return this.lifeExpectancy - this.earthAge();
   }
+
+  lifeExpMercury() {
+    return Math.floor((this.lifeExpectancy / .24) - this.mercuryAge());
+  }
 }

@@ -29,6 +29,6 @@ describe('User', function() {
   });
 
   it("Should calculate the Mercury life expectancy for the input", function() {
-    expect(user.lifeExpMecury()).toEqual(233);
+    expect(user.lifeExpMercury()).toEqual(233);
   });
 });
