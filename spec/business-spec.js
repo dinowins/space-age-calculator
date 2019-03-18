@@ -19,4 +19,8 @@ describe('User', function() {
   it("Should calculate the Mars age for the input", function() {
     expect(user.marsAge()).toEqual(12);
   })
+
+  it("Should calculate the Jupiter age for the input", function() {
+    expect(user.jupiterAge()).toEqual(2);
+  })
 });
