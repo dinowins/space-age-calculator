@@ -1,6 +1,7 @@
 export class User {
   constructor(birthdate) {
 		this.birthdate = new Date(birthdate);
+    this.lifeExpectancy = 80;
 	}
 
 	ageInSecs() {
@@ -28,4 +29,8 @@ export class User {
   jupiterAge() {
     return Math.floor(this.ageInSecs() / 31536000000 / 11.86);
   }
+
+  // lifeExpEarth() {
+  //   return earthAge() - this.lifeExpectancy;
+  // }
 }
