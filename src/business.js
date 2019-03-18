@@ -1,4 +1,4 @@
-class SpaceAge {
+export class userAge {
   constructor(earthYears) {
     this.earthAge = earthYears;
     this.mercuryAge = earthYears * .24;
@@ -9,6 +9,5 @@ class SpaceAge {
 
   SpaceAge.prototype.checkLifeExpectancyLeft = function () {
     const earthLifeExpectancy = 80;
-    const 
   }
 }
