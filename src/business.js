@@ -46,4 +46,8 @@ export class User {
     return Math.floor((this.lifeExpectancy / 1.88) - this.marsAge());
   }
 
+  lifeExpJupiter() {
+    return Math.floor((this.lifeExpectancy / 11.86) - this.jupiterAge());
+  }
+
 }
