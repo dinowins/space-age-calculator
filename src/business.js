@@ -20,4 +20,8 @@ export class User {
   venusAge() {
     return Math.floor(this.ageInSecs() / 31536000000 / .62);
   }
+
+  marsAge() {
+    return Math.floor(this.ageInSecs() / 31536000000 / 1.88);
+  }
 }
