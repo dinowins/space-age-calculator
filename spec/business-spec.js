@@ -31,4 +31,8 @@ describe('User', function() {
   it("Should calculate the Mercury life expectancy for the input", function() {
     expect(user.lifeExpMercury()).toEqual(233);
   });
+
+  it("Should calculate the Venus life expectancy for the input", function() {
+    expect(user.lifeExpMercury()).toEqual(105);
+  });
 });
