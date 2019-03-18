@@ -39,4 +39,8 @@ describe('User', function() {
   it("Should calculate the Mars life expectancy for the input", function() {
     expect(user.lifeExpMars()).toEqual(30);
   });
+
+  it("Should calculate the Jupiter life expectancy for the input", function() {
+    expect(user.lifeExpJupiter()).toEqual(4);
+  });
 });
