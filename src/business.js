@@ -1,13 +1,20 @@
-export class userAge {
-  constructor(earthYears) {
-    this.earthAge = earthYears;
-    this.mercuryAge = earthYears * .24;
-    this.venusAge = earthYears * .62;
-    this.marsAge = earthYears * 1.88;
-    this.jupiterYears = earthYears * 11.86;
+export class User {
+  constructor(userBirthDate) {
+    this.birthdate = new Date(userBirthDate);
+    this.lifeExpectancy = 80;
   }
 
-  SpaceAge.prototype.checkLifeExpectancyLeft = function () {
-    const earthLifeExpectancy = 80;
+  getEarthAge() {
+    const todayDate = new Date();
+    const ageDiff = todayDate - this.birthdate;
+    return Math.floor(ageDiff / 31536000000);
   }
+
+
+
+
+
+
+
+
 }
