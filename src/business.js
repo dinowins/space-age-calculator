@@ -37,4 +37,8 @@ export class User {
   lifeExpMercury() {
     return Math.floor((this.lifeExpectancy / .24) - this.mercuryAge());
   }
+
+  lifeExpVenus() {
+    return Math.floor((this.lifeExpectancy / .62) - this.venusAge());
+  }
 }
