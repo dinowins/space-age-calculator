@@ -30,7 +30,7 @@ export class User {
     return Math.floor(this.ageInSecs() / 31536000000 / 11.86);
   }
 
-  // lifeExpEarth() {
-  //   return earthAge() - this.lifeExpectancy;
-  // }
+  lifeExpEarth() {
+    return this.lifeExpectancy - this.earthAge();
+  }
 }
