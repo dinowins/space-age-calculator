@@ -8,7 +8,11 @@ describe('User', function() {
     expect(user.earthAge()).toEqual(24);
   });
 
-  it("Should calculate the Mercury age for the input age", function(){
+  it("Should calculate the Mercury age for the input", function(){
     expect(user.mercuryAge()).toEqual(100);
   });
+
+  it("Should calculate the Venus age for the input", function() {
+    expect(user.venusAge()).toEqual(38);
+  })
 });
