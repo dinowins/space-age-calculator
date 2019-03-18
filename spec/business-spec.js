@@ -14,5 +14,9 @@ describe('User', function() {
 
   it("Should calculate the Venus age for the input", function() {
     expect(user.venusAge()).toEqual(38);
+  });
+
+  it("Should calculate the Mars age for the input", function() {
+    expect(user.marsAge()).toEqual(12);
   })
 });
