@@ -28,26 +28,18 @@ user.lifeExpMercury() # returns '233'
 ```
 
 ## Specs
-
-  - Should calculate input age based on birthdate
-
-  - Should calculate the Mercury age for the input
-
-  - Should calculate the Venus age for the input
-
-  - Should calculate the Mars age for the input
-
-  - Should calculate the Jupiter age for the input
-
-  - Should calculate the Earth life expectancy for the input
-
-  - Should calculate the Mercury life expectancy for the input
-
-  - Should calculate the Venus life expectancy for the input
-
-  - Should calculate the Mars life expectancy for the input
-
-  - Should calculate the Jupiter life expectancy for the input
+Specification | Input | Output
+------------- | ----- | ------
+Should calculate input age based on birthdate | 1995-03-10 | 24
+Should calculate the Mercury age for the input | 1995-03-10 | 100
+Should calculate the Venus age for the input | 1995-03-10 | 38
+Should calculate the Mars age for the input | 1995-03-10 | 12
+Should calculate the Jupiter age for the input | 1995-03-10 | 2
+Should calculate the Earth life expectancy for the input | 1995-03-10 | 56
+Should calculate the Mercury life expectancy for the input | 1995-03-10 | 233
+Should calculate the Venus life expectancy for the input | 1995-03-10 | 91
+Should calculate the Mars life expectancy for the input | 1995-03-10 | 30
+Should calculate the Jupiter life expectancy for the input | 1995-03-10 | 4
 
 ## Technologies
 
